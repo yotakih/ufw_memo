@@ -1,0 +1,22 @@
+>ufw の有効化
+ufw enable
+
+>ufw の無効化
+ufw disable
+
+>ufw の状態確認
+ufw status
+
+>ufw の状態とルールを確認
+ufw status verbose
+
+>ufw のルール番号の確認
+ufw status numbered
+
+>ufw のルールの削除
+ufw delete [ルール番号]
+
+>指定したip,portでの許可ルールの追加
+ufw allow from [ip addr/mask] to any port [port number]
+ufw reload
+
